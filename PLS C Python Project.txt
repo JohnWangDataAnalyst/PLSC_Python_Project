@@ -25,8 +25,10 @@ GUI:  friendly with user(easy to make choices , workflow logically and easy to w
               
 Data sets:   PET
              fMRI
-             MEG EEG :  able to convert difference data type into Brain activity matrix 
+             MEG: able to load different types of pre-processed MEG data (e.g., source space time series) 
+             EEG :  able to convert difference data type into Brain activity matrix 
                                          (look at matlab package for this part or work with python library such as MNE)
+          Structural MRI: segmentations, DTI                               
 
           Have ability to deal with high dimension and high volume data
               One: Python store save data into chunks at hard disk and pull out data into memory chunk by chunk
